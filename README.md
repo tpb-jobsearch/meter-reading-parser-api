@@ -38,7 +38,7 @@ dotnet ef migrations add "<MIGRATION__NAME>" --project "MeterReadings.Data.Sql" 
 
 ### Update Database Command
 
-Navigate to root folder and run the following command (changing to the name of the migration).
+Navigate to root folder and run the following command.
 
 ```bat
 dotnet ef database update --project "MeterReadings.Data.Sql" --startup-project "MeterReadings.Api"
